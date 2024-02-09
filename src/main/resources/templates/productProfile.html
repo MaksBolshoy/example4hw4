@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product Profile</title>
+</head>
+<body>
+<h1 th:text="'Профиль ' + ${product.name}"></h1>
+<p>ID: <span th:text="${product.id}"></span></p>
+<p>Category: <span th:text="${product.category}"></span></p>
+</body>
+</html>
